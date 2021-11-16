@@ -9,5 +9,5 @@ choice = input("Do you want the middle or ends of your input? ")
 
 if choice == "middle":
     print("The middle of your input is" + str(numbers[1:mid]) + '.')
-if choice == "end":
+if choice == "ends":
     print("The end of your input is" + str(numbers[1:end]) + '.')
